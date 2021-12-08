@@ -368,6 +368,7 @@ valine:
   background: /medias/comment_bg.png
   guest_info: nick,mail,link # Custom comment header
   language: zh-cn # Language, available values: en, zh-cn
+  serverURL: https://adl8jdoo.api.lncldglobal.com
 # coolpushkey: 
 
 # The configuration of the MiniValine comment module is not activated by default.
