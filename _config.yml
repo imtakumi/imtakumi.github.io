@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-matery
+theme: matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,55 +105,3 @@ deploy:
   type: git
   repository: git@github.com:imTakumi/imTakumi.github.io.git
   branch: main
-  
-# Menu
-## set menu
-menu:
-  Index:
-    url: /
-    icon: fas fa-home
-  Tags:
-    url: /tags
-    icon: fas fa-tags
-  Categories:
-    url: /categories
-    icon: fas fa-bookmark
-  Archives:
-    url: /archives
-    icon: fas fa-archive
-  About:
-    url: /about
-    icon: fas fa-user-circle
-  Friends:
-    url: /friends
-    icon: fas fa-address-book
-
-# Search
-## Enable search by hexo-generator-search
-search:
-  path: search.xml
-  field: post
- 
-# Hanz pingyin
-permalink_pinyin:
-  enable: true
-  separator: '-' # default: '-'
-
-# wordcount
-## Enable wordcount by hexo-wordcount 
-postInfo:
-  date: true
-  update: false
-  wordCount: false # 设置文章字数统计为 true.
-  totalCount: false # 设置站点文章总字数统计为 true.
-  min2read: false # 阅读时长.
-  readCount: false # 阅读次数.
-
-# emoji
-## Enable emoji by hexo-filter-github-emojis   
-githubEmojis:
-  enable: true
-  className: github-emoji
-  inject: true
-  styles:
-  customEmojis:
